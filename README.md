@@ -1,4 +1,15 @@
-# SSH Brute Force Detector (Learning Project)
+# Python SSH Brute Force Detection & Auth Log Analyzer
+ ____ v1
+|     |____ original_script.py
+|____ v2/
+|     |____ auth_log_analyzer_v2.py
+|     |____ ssh_detection_report.txt
+|     
+|____ screenshots/
+|     |____ hydra_attack.png
+|     |____ detection_output.png
+|
+|____ README.md
 
 ## 📌 Overview of this Lab
 This project analyzes SSH authentication logs to detect potential brute-force  attacks.
@@ -26,5 +37,23 @@ brute-force attacks and potential account compromise.
 - No real-time monitoring
 
 ##  🚀 Next Steps
+
+## Project Evaluation
+Version 1 (v1)
+The initial version focused on detecting repeated failed SSH login attempts
+from authentication logs.
+
+Version 2 (v2)
+* Severity scoring
+* Timestamp tracking
+* User-target detection
+* TXT report exporting
+* Improved attack analysis
+* Detection of successful  VS
+  unsuccessful compromise attempts
+
+This version was tested using simulated brute-force attacks from kali Linux with 
+Hydra against an Ubuntu SSH server.
+
 - implement time-based detection (e.g., x attempts in Y seconds)
 - Improve reporting format
