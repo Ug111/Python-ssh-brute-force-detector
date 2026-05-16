@@ -2,7 +2,7 @@
  ____ v1
 |     |____ original_script.py
 |____ v2/
-|     |____ auth_log_analyzer_v2.py
+|     |____ ssh_brute-force_detector_v2.py
 |     |____ ssh_detection_report.txt
 |     
 |____ screenshots/
