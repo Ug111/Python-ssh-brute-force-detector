@@ -12,7 +12,8 @@
 |____ README.md
 
 ## 📌 Overview of this Lab
-This project analyzes SSH authentication logs to detect potential brute-force  attacks.
+This project was developed in a controlled virtual lab environment using Ubuntu and Kali Linux 
+to simulate and detect SSH brute-force attacks through authentication log analysis
 
 ## 🎯 Goal
 I built this to better understand howfailed log patterns can indicate malicious activities.
