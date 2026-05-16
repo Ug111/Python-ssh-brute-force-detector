@@ -16,7 +16,7 @@ This project was developed in a controlled virtual lab environment using Ubuntu 
 to simulate and detect SSH brute-force attacks through authentication log analysis
 
 ## 🎯 Goal
-I built this to better understand howfailed log patterns can indicate malicious activities.
+I built this to better understand how failed log patterns can indicate malicious activities.
 
 ## SOC Use Case
 This tool simulates a SOC detection workflow where authentication logs are analyzed to identify
